@@ -1,30 +1,9 @@
 // const { i18n } = require('./next-i18next.config')
 
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-  output: 'export',
+module.exports = {
+  // i18n,
   trailingSlash: true,
   images: {
     unoptimized: true,
-  },
- 
-  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  // trailingSlash: true,
- 
-  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
-  // skipTrailingSlashRedirect: true,
- 
-  // Optional: Change the output directory `out` -> `dist`
-  // distDir: 'dist',
+  }
 }
- 
-module.exports = nextConfig
-// module.exports = {
-//   // i18n,
-  
-//   output: "standalone"
-// }
-
-//jeje
